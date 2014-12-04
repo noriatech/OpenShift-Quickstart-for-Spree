@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.0.5'
+gem 'rails', '~> 4.1.0'
 gem 'rack', '~> 1.5.2'
 
 # Bundle edge Rails instead:
@@ -54,6 +54,6 @@ gem 'libv8'
 gem 'therubyracer'
 gem 'rmagick'
 
-gem 'spree', '2.2.2'
-gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
-gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
+gem 'spree', '2.4.1'
+gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-4-stable'
+gem 'spree_auth_devise' , :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-4-stable'
